@@ -1,0 +1,15 @@
+.cart-form {
+  width: 600px;
+  margin: 0 auto;
+
+  &__address {
+    textarea {
+      height: 120px;
+      resize: none;
+    }
+  }
+
+  &__submit {
+    margin: 0 auto;
+  }
+}

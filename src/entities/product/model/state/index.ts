@@ -15,6 +15,8 @@ interface ShoppingCartState {
   decrementProduct(product: types.Product): void;
 
   removeProduct(id: number): void;
+
+  clearCart(): void;
 }
 
 export const useShoppingCart = create<ShoppingCartState>()(
@@ -55,6 +57,15 @@ export const useShoppingCart = create<ShoppingCartState>()(
           }),
         false,
         { type: "shoppingCart/removeProduct", id },
+      ),
+    clearCart: () =>
+      set(
+        (state) =>
+          produce(state, (draftState) => {
+            draftState.cart = {};
+          }),
+        false,
+        { type: "shoppingCart/clearCart" },
       ),
   })),
 );

@@ -1,0 +1,13 @@
+.cart-widget {
+  &__product-name {
+    display: block;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
+  }
+
+  &__check {
+    text-align: right;
+  }
+}

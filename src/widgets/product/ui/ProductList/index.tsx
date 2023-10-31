@@ -19,7 +19,7 @@ export function ProductList() {
   return (
     <Row gutter={[16, 16]}>
       {products?.map((product) => (
-        <Col span={4}>
+        <Col span={4} key={product.id}>
           <ProductCard product={product} />
         </Col>
       ))}

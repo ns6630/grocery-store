@@ -23,7 +23,7 @@ export function Header() {
 
   const menuItems = [
     {
-      key: "/home",
+      key: "/",
       label: "Домашняя страница",
     },
     ...categoryItems,
