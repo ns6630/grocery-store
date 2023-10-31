@@ -1,0 +1,7 @@
+.product-page-title {
+  display: block;
+
+  &:first-letter {
+    text-transform: uppercase;
+  }
+}

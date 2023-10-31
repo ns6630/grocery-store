@@ -1,0 +1,173 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "фрукты",
+      "productPlaceholder": "fruits.png"
+    },
+    {
+      "id": 2,
+      "name": "овощи",
+      "productPlaceholder": "vegetables.png"
+    },
+    {
+      "id": 3,
+      "name": "молочная продукция",
+      "productPlaceholder": "milk-products.png"
+    },
+    {
+      "id": 4,
+      "name": "выпечка",
+      "productPlaceholder": "bakery.png"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "апельсин",
+      "category": 1,
+      "price": 150,
+      "unit": "1 кг"
+    },
+    {
+      "id": 2,
+      "name": "виноград",
+      "category": 1,
+      "price": 180,
+      "unit": "1 кг"
+    },
+    {
+      "id": 3,
+      "name": "яблоко",
+      "category": 1,
+      "price": 80,
+      "unit": "1 кг"
+    },
+    {
+      "id": 4,
+      "name": "груша",
+      "category": 1,
+      "price": 150,
+      "unit": "1 кг"
+    },
+    {
+      "id": 5,
+      "name": "лимон",
+      "category": 1,
+      "price": 137,
+      "unit": "1 кг"
+    },
+    {
+      "id": 6,
+      "name": "манго",
+      "category": 1,
+      "price": 190,
+      "unit": "1 шт"
+    },
+    {
+      "id": 7,
+      "name": "картофель",
+      "category": 2,
+      "price": 100,
+      "unit": "2 кг"
+    },
+    {
+      "id": 8,
+      "name": "лук",
+      "category": 2,
+      "price": 30,
+      "unit": "1 кг"
+    },
+    {
+      "id": 9,
+      "name": "чеснок",
+      "category": 2,
+      "price": 70,
+      "unit": "1 кг"
+    },
+    {
+      "id": 10,
+      "name": "морковь",
+      "category": 2,
+      "price": 45,
+      "unit": "1 кг"
+    },
+    {
+      "id": 11,
+      "name": "помидор",
+      "category": 2,
+      "price": 125,
+      "unit": "1 кг"
+    },
+    {
+      "id": 12,
+      "name": "огурец",
+      "category": 2,
+      "price": 149,
+      "unit": "1 кг"
+    },
+    {
+      "id": 13,
+      "name": "баклажан",
+      "category": 2,
+      "price": 170,
+      "unit": "1 кг"
+    },
+    {
+      "id": 14,
+      "name": "молоко",
+      "category": 3,
+      "price": 87,
+      "unit": "1 л"
+    },
+    {
+      "id": 15,
+      "name": "сливки",
+      "category": 3,
+      "price": 120,
+      "unit": "500 мл"
+    },
+    {
+      "id": 16,
+      "name": "сметана",
+      "category": 3,
+      "price": 90,
+      "unit": "450 г"
+    },
+    {
+      "id": 17,
+      "name": "творог",
+      "category": 3,
+      "price": 110,
+      "unit": "250 г"
+    },
+    {
+      "id": 18,
+      "name": "масло сливочное",
+      "category": 3,
+      "price": 125,
+      "unit": "250 г"
+    },
+    {
+      "id": 19,
+      "name": "хлеб Бородинский",
+      "category": 4,
+      "price": 50,
+      "unit": "400 г"
+    },
+    {
+      "id": 20,
+      "name": "батон Чайный",
+      "category": 4,
+      "price": 37,
+      "unit": "300 г"
+    },
+    {
+      "id": 21,
+      "name": "багет",
+      "category": 4,
+      "price": 50,
+      "unit": "300 г"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.layout {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+
+  &-header {
+    position: sticky;
+
+    &__menu {
+      .ant-menu-title-content {
+        display: block;
+        &:first-letter {
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &-content {
+    padding: 0 50px;
+  }
+
+  &-footer {
+    text-align: center;
+  }
+}
